@@ -1,0 +1,21 @@
+# Salary Data Processing
+
+This project includes a Python script for processing employee salary data and an R script for displaying the data after it has been zipped.
+
+## Requirements:
+- Python 3.x
+- Pandas
+- R 4.x
+- zipfile module (included in Python standard library)
+
+## Python Instructions:
+1. Import the salary data into the Jupyter Notebook.
+2. Use the `get_employee_details()` function to retrieve employee details by name.
+3. Export employee data to a CSV file and zip it into "Employee_Profile.zip".
+
+## R Instructions:
+1. Use the `unzip_and_display()` function in R to unzip the folder and display the employee data from the CSV file.
+
+## How to Run:
+- Run the Python code in Jupyter Notebook to process and export the data.
+- Use R to unzip the "Employee_Profile.zip" and display the employee data.
